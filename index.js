@@ -15,11 +15,11 @@ writeCards(names, eventss)
 
 
 function countDown() {
-    let count = 0
-    while(count <= 10){
-        console.log(count)
-        count++
+    let count = 10;
+    while(count >= 0){ 
+        console.log(count);
+        count--; 
     }
-    
 }
-countDown(10)
+
+countDown(); 
